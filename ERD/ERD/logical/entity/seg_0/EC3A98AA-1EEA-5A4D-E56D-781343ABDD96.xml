@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC3A98AA-1EEA-5A4D-E56D-781343ABDD96" name="Account">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-24 12:32:43 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="1AF1B632-762F-DA43-1E0F-56327D55FF41">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-24 12:32:58 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fname" id="270BDBD9-6933-F62F-86D9-9CBAC04672DB">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-24 12:33:09 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lname" id="B8682434-0F00-2F49-162B-A1E0745E68EE">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-24 12:37:19 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="B6F5ABB0-3438-6F55-0338-363EDFC85616">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-24 13:11:43 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="username" id="9F75EF0B-0694-AF46-AB30-BBBD352126FE">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-24 12:33:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="8D4FE8EA-442E-274E-FA4E-65579AFCDF2B">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-24 12:33:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4D2B0CF-39F4-1D72-0105-CF35F57E5D29" name="Account PK">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-24 12:33:07 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1AF1B632-762F-DA43-1E0F-56327D55FF41</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
