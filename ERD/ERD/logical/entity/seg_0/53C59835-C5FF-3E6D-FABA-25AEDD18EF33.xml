@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53C59835-C5FF-3E6D-FABA-25AEDD18EF33" name="Suites">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53C59835-C5FF-3E6D-FABA-25AEDD18EF33" name="Reservation">
 <createdBy>SD Student</createdBy>
 <createdTime>2022-05-24 13:13:49 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Name" id="55E526E5-FC33-7737-5793-589FEAE93C76">
+<Attribute name="arrivalDate" id="55E526E5-FC33-7737-5793-589FEAE93C76">
 <createdBy>SD Student</createdBy>
 <createdTime>2022-05-24 13:14:09 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
@@ -39,6 +39,101 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departureDate" id="54849C59-B80B-4D6A-8FCE-CBB598709BCD">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-25 11:16:37 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uid" id="AB3BC3F1-98A1-5FE1-58EC-836E44E097BA">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-25 11:16:56 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rid" id="A2D342A4-A58F-F08D-812D-2E263707D771">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-25 11:17:18 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="82CC4DE1-26B8-EE93-191F-0694284FC0F9">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-25 11:19:39 UTC</createdTime>
+<generatorID>0D790D91-D930-87CF-25AC-12C5B29DA0B4</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<referedAttribute>97419DA2-E5AC-DE45-E3A4-1244730078B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id2" id="4C166F30-F094-2151-B428-C01E4327E126">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-25 11:20:15 UTC</createdTime>
+<generatorID>FE5EDAF0-1460-883F-03BA-0CC31B70511A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<referedAttribute>1AF1B632-762F-DA43-1E0F-56327D55FF41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="9D211934-6657-49B4-1FA4-766A47A6794F">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-25 11:20:46 UTC</createdTime>
+<generatorID>FE5EDAF0-1460-883F-03BA-0CC31B70511A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<referedAttribute>B6F5ABB0-3438-6F55-0338-363EDFC85616</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="username" id="0AD64A9D-6471-EF70-A80A-D986C30F4AD6">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-25 11:21:00 UTC</createdTime>
+<generatorID>FE5EDAF0-1460-883F-03BA-0CC31B70511A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<referedAttribute>9F75EF0B-0694-AF46-AB30-BBBD352126FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
