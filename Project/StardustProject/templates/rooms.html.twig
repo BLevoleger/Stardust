@@ -3,10 +3,15 @@
 {% block title %}ROOMS{% endblock %}
 {% block body %}
     <h1>ROOMS</h1>
+{# for loop to cycle trough the entity #}
     {% for room in rooms %}
-        {{ room.name }} <br>
-        {{ room.description }} <br>
-        <img src="/img/{{ room.img }}" alt=""> <br>
-        {{ room.price }} <br><br>
+    {# if statement, if a room is taken #}
+        {% if room.taken == true %}
+            {% else %}
+                {{ room.name }} <br>
+                {{ room.description }} <br>
+                <img src="/img/{{ room.img }}" alt=""> <br>
+                {{ room.price }} <br><br>
+        {% endif %}
     {% endfor %}
 {% endblock %}

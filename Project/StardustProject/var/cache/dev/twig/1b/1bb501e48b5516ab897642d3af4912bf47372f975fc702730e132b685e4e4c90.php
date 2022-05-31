@@ -86,28 +86,40 @@ class __TwigTemplate_012eb33410550a822921ce858878a6f8d7338cb46ba9c048fdeaed673eb
 
         // line 5
         echo "    <h1>ROOMS</h1>
-    ";
-        // line 6
+";
+        // line 7
+        echo "    ";
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["rooms"]) || array_key_exists("rooms", $context) ? $context["rooms"] : (function () { throw new RuntimeError('Variable "rooms" does not exist.', 6, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["rooms"]) || array_key_exists("rooms", $context) ? $context["rooms"] : (function () { throw new RuntimeError('Variable "rooms" does not exist.', 7, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["room"]) {
-            // line 7
-            echo "        ";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["room"], "name", [], "any", false, false, false, 7), "html", null, true);
-            echo " <br>
-        ";
             // line 8
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["room"], "description", [], "any", false, false, false, 8), "html", null, true);
-            echo " <br>
-        <img src=\"/img/";
+            echo "    ";
             // line 9
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["room"], "img", [], "any", false, false, false, 9), "html", null, true);
-            echo "\" alt=\"\"> <br>
+            echo "        ";
+            if ((0 === twig_compare(twig_get_attribute($this->env, $this->source, $context["room"], "taken", [], "any", false, false, false, 9), true))) {
+                // line 10
+                echo "            ";
+            } else {
+                // line 11
+                echo "                ";
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["room"], "name", [], "any", false, false, false, 11), "html", null, true);
+                echo " <br>
+                ";
+                // line 12
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["room"], "description", [], "any", false, false, false, 12), "html", null, true);
+                echo " <br>
+                <img src=\"/img/";
+                // line 13
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["room"], "img", [], "any", false, false, false, 13), "html", null, true);
+                echo "\" alt=\"\"> <br>
+                ";
+                // line 14
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["room"], "price", [], "any", false, false, false, 14), "html", null, true);
+                echo " <br><br>
         ";
-            // line 10
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["room"], "price", [], "any", false, false, false, 10), "html", null, true);
-            echo " <br><br>
-    ";
+            }
+            // line 16
+            echo "    ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['room'], $context['_parent'], $context['loop']);
@@ -132,7 +144,7 @@ class __TwigTemplate_012eb33410550a822921ce858878a6f8d7338cb46ba9c048fdeaed673eb
 
     public function getDebugInfo()
     {
-        return array (  108 => 10,  104 => 9,  100 => 8,  95 => 7,  91 => 6,  88 => 5,  78 => 4,  59 => 3,  36 => 1,);
+        return array (  122 => 16,  117 => 14,  113 => 13,  109 => 12,  104 => 11,  101 => 10,  98 => 9,  96 => 8,  91 => 7,  88 => 5,  78 => 4,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -142,11 +154,16 @@ class __TwigTemplate_012eb33410550a822921ce858878a6f8d7338cb46ba9c048fdeaed673eb
 {% block title %}ROOMS{% endblock %}
 {% block body %}
     <h1>ROOMS</h1>
+{# for loop to cycle trough the entity #}
     {% for room in rooms %}
-        {{ room.name }} <br>
-        {{ room.description }} <br>
-        <img src=\"/img/{{ room.img }}\" alt=\"\"> <br>
-        {{ room.price }} <br><br>
+    {# if statement, if a room is taken #}
+        {% if room.taken == true %}
+            {% else %}
+                {{ room.name }} <br>
+                {{ room.description }} <br>
+                <img src=\"/img/{{ room.img }}\" alt=\"\"> <br>
+                {{ room.price }} <br><br>
+        {% endif %}
     {% endfor %}
 {% endblock %}
 ", "rooms.html.twig", "C:\\Users\\SD Student\\Desktop\\Stardust\\Project\\StardustProject\\templates\\rooms.html.twig");

@@ -49,6 +49,11 @@ class Room
      */
     private $roomNumber;
 
+    /**
+     * @ORM\Column(type="boolean")
+     */
+    private $taken;
+
     public function __construct()
     {
         $this->reservations = new ArrayCollection();
@@ -145,6 +150,18 @@ class Room
     public function setRoomNumber(int $roomNumber): self
     {
         $this->roomNumber = $roomNumber;
+
+        return $this;
+    }
+
+    public function isTaken(): ?bool
+    {
+        return $this->taken;
+    }
+
+    public function setTaken(bool $taken): self
+    {
+        $this->taken = $taken;
 
         return $this;
     }

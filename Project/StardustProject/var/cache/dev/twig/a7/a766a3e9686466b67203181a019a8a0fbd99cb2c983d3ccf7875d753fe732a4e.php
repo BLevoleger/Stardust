@@ -96,6 +96,8 @@ class __TwigTemplate_efff6c318e0bebc7f4d912d6361d77f0e95a89529e1dcc4a1142504a5c6
 
     <h1>Hotel Stardust</h1>
 
+    <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.789095498573!2d3.8540723!3d51.7368928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c4f6dcd1ab696d%3A0x6aa76571db2311c0!2sKapelleweg%204A%2C%204322%20NH%20Scharendijke!5e0!3m2!1snl!2snl!4v1654001913198!5m2!1snl!2snl\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>
+
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -136,6 +138,8 @@ class __TwigTemplate_efff6c318e0bebc7f4d912d6361d77f0e95a89529e1dcc4a1142504a5c6
     Mijn gegevens
 
     <h1>Hotel Stardust</h1>
+
+    <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.789095498573!2d3.8540723!3d51.7368928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c4f6dcd1ab696d%3A0x6aa76571db2311c0!2sKapelleweg%204A%2C%204322%20NH%20Scharendijke!5e0!3m2!1snl!2snl!4v1654001913198!5m2!1snl!2snl\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>
 
 {% endblock %}", "home.html.twig", "C:\\Users\\SD Student\\Desktop\\Stardust\\Project\\StardustProject\\templates\\home.html.twig");
     }
