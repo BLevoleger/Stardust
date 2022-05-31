@@ -44,6 +44,11 @@ class Room
      */
     private $reservations;
 
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $roomNumber;
+
     public function __construct()
     {
         $this->reservations = new ArrayCollection();
@@ -128,6 +133,18 @@ class Room
                 $reservation->setRid(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getRoomNumber(): ?int
+    {
+        return $this->roomNumber;
+    }
+
+    public function setRoomNumber(int $roomNumber): self
+    {
+        $this->roomNumber = $roomNumber;
 
         return $this;
     }

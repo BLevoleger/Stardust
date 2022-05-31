@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="EC3A98AA-1EEA-5A4D-E56D-781343ABDD96" name="Account" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="47E5D209-A7E7-B27B-029B-3BEDDB4552F6" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="53C59835-C5FF-3E6D-FABA-25AEDD18EF33" name="Reservation" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="47E5D209-A7E7-B27B-029B-3BEDDB4552F6" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="02EBD945-D635-2266-FBC7-7E98914CB50B" name="Room" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="47E5D209-A7E7-B27B-029B-3BEDDB4552F6" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="0D790D91-D930-87CF-25AC-12C5B29DA0B4" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="47E5D209-A7E7-B27B-029B-3BEDDB4552F6" propertySourceId="53C59835-C5FF-3E6D-FABA-25AEDD18EF33" propertyTargetId="02EBD945-D635-2266-FBC7-7E98914CB50B"/>
+   <object objectType="Relation" objectID="FE5EDAF0-1460-883F-03BA-0CC31B70511A" name="Relation_3" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="47E5D209-A7E7-B27B-029B-3BEDDB4552F6" propertySourceId="EC3A98AA-1EEA-5A4D-E56D-781343ABDD96" propertyTargetId="53C59835-C5FF-3E6D-FABA-25AEDD18EF33"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

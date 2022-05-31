@@ -9,7 +9,7 @@
 <targetPk>CA0CA98E-FF5D-FB59-5815-67C06A87CC56</targetPk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>53C59835-C5FF-3E6D-FABA-25AEDD18EF33</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

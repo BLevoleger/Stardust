@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7338954-6eaa-421b-b22f-37215b50885f" name="Changes" comment="" />
+    <list default="true" id="b7338954-6eaa-421b-b22f-37215b50885f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../ERD/ERD/logical/entity/seg_0/02EBD945-D635-2266-FBC7-7E98914CB50B.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ERD/ERD/logical/entity/seg_0/02EBD945-D635-2266-FBC7-7E98914CB50B.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ERD/ERD/logical/entity/seg_0/53C59835-C5FF-3E6D-FABA-25AEDD18EF33.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ERD/ERD/logical/entity/seg_0/53C59835-C5FF-3E6D-FABA-25AEDD18EF33.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ERD/ERD/logical/relation/seg_0/0D790D91-D930-87CF-25AC-12C5B29DA0B4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ERD/ERD/logical/relation/seg_0/0D790D91-D930-87CF-25AC-12C5B29DA0B4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ERD/ERD/logical/relation/seg_0/FE5EDAF0-1460-883F-03BA-0CC31B70511A.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ERD/ERD/logical/relation/seg_0/FE5EDAF0-1460-883F-03BA-0CC31B70511A.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653994050180</updated>
-      <workItem from="1653994052097" duration="961000" />
+      <workItem from="1653994052097" duration="1600000" />
     </task>
     <servers />
   </component>

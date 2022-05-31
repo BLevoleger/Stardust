@@ -79,6 +79,18 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="roomNumber" id="715772FE-3215-5200-4A51-9CA023980BD1">
+<createdBy>SD Student</createdBy>
+<createdTime>2022-05-31 12:06:52 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1DF1D3A6-FFF2-ADE1-4A49-D23014C3F785" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="CA0CA98E-FF5D-FB59-5815-67C06A87CC56" name="Kamers PK">
