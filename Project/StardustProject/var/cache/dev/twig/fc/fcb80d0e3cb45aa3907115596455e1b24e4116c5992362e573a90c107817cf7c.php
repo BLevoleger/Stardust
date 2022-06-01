@@ -67,10 +67,19 @@ class __TwigTemplate_b2c5de41934fe725d3b10db5f4bc9697564bdd2cb7815d153be74f51e42
         // line 15
         echo "    </head>
     <body>
+    <a href=\"/\">Home</a><br>
+    <a href=\"/rooms\">Kamers</a>
+    <a href=\"/reservations\">Reservations</a>
+
+    <hr>
+    Login <br>
+    Register
+    <hr>
+    Mijn gegevens
         ";
-        // line 17
+        // line 26
         $this->displayBlock('body', $context, $blocks);
-        // line 18
+        // line 28
         echo "    </body>
 </html>
 ";
@@ -141,7 +150,7 @@ class __TwigTemplate_b2c5de41934fe725d3b10db5f4bc9697564bdd2cb7815d153be74f51e42
 
     }
 
-    // line 17
+    // line 26
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -166,7 +175,7 @@ class __TwigTemplate_b2c5de41934fe725d3b10db5f4bc9697564bdd2cb7815d153be74f51e42
 
     public function getDebugInfo()
     {
-        return array (  145 => 17,  134 => 13,  124 => 12,  114 => 10,  104 => 9,  86 => 5,  74 => 18,  72 => 17,  68 => 15,  66 => 12,  63 => 11,  61 => 9,  58 => 8,  53 => 5,  47 => 1,);
+        return array (  154 => 26,  143 => 13,  133 => 12,  123 => 10,  113 => 9,  95 => 5,  83 => 28,  81 => 26,  68 => 15,  66 => 12,  63 => 11,  61 => 9,  58 => 8,  53 => 5,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -187,7 +196,17 @@ class __TwigTemplate_b2c5de41934fe725d3b10db5f4bc9697564bdd2cb7815d153be74f51e42
         {% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
+    <a href=\"/\">Home</a><br>
+    <a href=\"/rooms\">Kamers</a>
+    <a href=\"/reservations\">Reservations</a>
+
+    <hr>
+    Login <br>
+    Register
+    <hr>
+    Mijn gegevens
+        {% block body %}
+{% endblock %}
     </body>
 </html>
 ", "base.html.twig", "C:\\Users\\SD Student\\Desktop\\Stardust\\Project\\StardustProject\\templates\\base.html.twig");

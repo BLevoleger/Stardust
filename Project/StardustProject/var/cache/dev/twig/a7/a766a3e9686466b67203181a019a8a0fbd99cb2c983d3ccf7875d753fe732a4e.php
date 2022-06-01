@@ -86,13 +86,7 @@ class __TwigTemplate_efff6c318e0bebc7f4d912d6361d77f0e95a89529e1dcc4a1142504a5c6
 
         // line 5
         echo "
-    Home <br>
-    Kamers
-    <hr>
-    Login <br>
-    Register
-    <hr>
-    Mijn gegevens
+
 
     <h1>Hotel Stardust</h1>
 
@@ -129,13 +123,7 @@ class __TwigTemplate_efff6c318e0bebc7f4d912d6361d77f0e95a89529e1dcc4a1142504a5c6
 {% block title %}HOME{% endblock %}
 {% block body %}
 
-    Home <br>
-    Kamers
-    <hr>
-    Login <br>
-    Register
-    <hr>
-    Mijn gegevens
+
 
     <h1>Hotel Stardust</h1>
 

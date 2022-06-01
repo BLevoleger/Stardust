@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}RESERVATIONS{% endblock %}
+{% block body %}
+    <h1>RESERVATIONS</h1>
+    {# for loop to cycle trough the entity #}
+    {% for room in rooms %}
+        {# if statement, if a room is taken show them #}
+        {% if room.taken == true %}
+            {{ room.name }} <br>
+            {{ room.description }} <br>
+            <img src="/img/{{ room.img }}" alt=""> <br>
+            {{ room.price }} <br><br>
+        {% endif %}
+    {% endfor %}
+{% endblock %}

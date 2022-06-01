@@ -5,6 +5,7 @@
 return [
     'app_base_home' => [[], ['_controller' => 'App\\Controller\\BaseController::home'], [], [['text', '/']], [], [], []],
     'app_base_rooms' => [[], ['_controller' => 'App\\Controller\\BaseController::rooms'], [], [['text', '/rooms']], [], [], []],
+    'app_base_reservations' => [[], ['_controller' => 'App\\Controller\\BaseController::reservations'], [], [['text', '/reservations']], [], [], []],
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], [], []],
     '_wdt' => [['token'], ['_controller' => 'web_profiler.controller.profiler::toolbarAction'], [], [['variable', '/', '[^/]++', 'token', true], ['text', '/_wdt']], [], [], []],
     '_profiler_home' => [[], ['_controller' => 'web_profiler.controller.profiler::homeAction'], [], [['text', '/_profiler/']], [], [], []],

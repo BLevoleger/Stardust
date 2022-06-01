@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 25 mei 2022 om 16:29
+-- Gegenereerd op: 01 jun 2022 om 15:39
 -- Serverversie: 10.4.22-MariaDB
 -- PHP-versie: 7.4.27
 
@@ -61,7 +61,9 @@ CREATE TABLE `doctrine_migration_versions` (
 
 INSERT INTO `doctrine_migration_versions` (`version`, `executed_at`, `execution_time`) VALUES
 ('DoctrineMigrations\\Version20220525133950', '2022-05-25 15:39:55', 269),
-('DoctrineMigrations\\Version20220525134131', '2022-05-25 15:41:36', 175);
+('DoctrineMigrations\\Version20220525134131', '2022-05-25 15:41:36', 175),
+('DoctrineMigrations\\Version20220531121010', '2022-06-01 15:27:27', 34),
+('DoctrineMigrations\\Version20220531125053', '2022-06-01 15:27:27', 9);
 
 -- --------------------------------------------------------
 
@@ -104,17 +106,19 @@ CREATE TABLE `room` (
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `img` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `description` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `price` decimal(10,2) NOT NULL
+  `price` decimal(10,2) NOT NULL,
+  `room_number` int(11) NOT NULL,
+  `taken` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Gegevens worden geëxporteerd voor tabel `room`
 --
 
-INSERT INTO `room` (`id`, `name`, `img`, `description`, `price`) VALUES
-(1, 'Small Room', 'smallRoom.png', 'blablalblabllbalab', '39.99'),
-(2, 'mediumRoom', 'mediumRoom.png', 'blablablablab', '69.99'),
-(3, 'bigRoom', 'bigRoom.png', 'blalblablalb', '99.99');
+INSERT INTO `room` (`id`, `name`, `img`, `description`, `price`, `room_number`, `taken`) VALUES
+(1, 'Small Room', 'smallRoom.png', 'blablalblabllbalab', '39.99', 1, 1),
+(2, 'mediumRoom', 'mediumRoom.png', 'blablablablab', '69.99', 2, 0),
+(3, 'bigRoom', 'bigRoom.png', 'blalblablalb', '99.99', 3, 0);
 
 --
 -- Indexen voor geëxporteerde tabellen

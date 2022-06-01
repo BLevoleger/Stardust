@@ -25,4 +25,14 @@ class BaseController extends AbstractController
             "rooms" => $rooms
         ]);
     }
+
+    /**
+     * @Route("/reservations");
+     */
+    public function reservations(EntityManagerInterface $em) {
+        $rooms = $em->getRepository(Room::class)->findAll();
+        return $this->render("reservations.html.twig", [
+            "rooms" => $rooms
+        ]);
+    }
 }
