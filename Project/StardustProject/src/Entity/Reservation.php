@@ -33,11 +33,6 @@ class Reservation
      */
     private $rid;
 
-    /**
-     * @ORM\ManyToOne(targetEntity=Account::class, inversedBy="reservations")
-     * @ORM\JoinColumn(nullable=false)
-     */
-    private $uid;
 
     public function getId(): ?int
     {
@@ -76,18 +71,6 @@ class Reservation
     public function setRid(?Room $rid): self
     {
         $this->rid = $rid;
-
-        return $this;
-    }
-
-    public function getUid(): ?Account
-    {
-        return $this->uid;
-    }
-
-    public function setUid(?Account $uid): self
-    {
-        $this->uid = $uid;
 
         return $this;
     }

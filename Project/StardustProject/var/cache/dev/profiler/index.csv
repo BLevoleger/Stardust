@@ -39,3 +39,16 @@ e70d42,::1,GET,http://localhost:8000/home,1654090155,,404
 bd235e,::1,GET,http://localhost:8000/,1654090181,,200
 c8196d,::1,GET,http://localhost:8000/rooms,1654090333,,200
 9d6708,::1,GET,http://localhost:8000/reservations,1654090336,,200
+aa028f,::1,GET,http://localhost:8000/,1654598005,,200
+b6ae73,::1,GET,http://localhost:8000/,1654598032,,200
+83f82f,::1,GET,http://localhost:8000/,1654598034,,200
+04ecbb,::1,GET,http://localhost:8000/rooms,1654598035,,200
+2a8f3c,::1,GET,http://localhost:8000/reservations,1654598036,,200
+fabbe2,::1,GET,http://localhost:8000/rooms,1654598037,,200
+b06c54,::1,GET,http://localhost:8000/,1654598038,,200
+550303,::1,GET,http://localhost:8000/reservations,1654598038,,200
+79298d,::1,GET,http://localhost:8000/rooms,1654598047,,200
+edb042,::1,GET,http://localhost:8000/,1654598048,,200
+584c08,::1,GET,http://localhost:8000/,1654598404,,200
+7d9998,::1,GET,http://localhost:8000/,1654598406,,200
+bbcd64,::1,GET,http://localhost:8000/,1654598487,,200
